@@ -1,0 +1,8 @@
+<component name="org.nuxeo.sample.SuggestFileNumber">
+
+  <extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent"
+    point="operations" >
+      <operation class="org.nuxeo.sample.SuggestFileNumber" />
+   </extension>
+    
+</component>
